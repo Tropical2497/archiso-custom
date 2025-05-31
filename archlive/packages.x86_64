@@ -6,12 +6,9 @@ b43-fwcutter
 base
 bcachefs-tools
 bind
-bolt
-brltty
 broadcom-wl
 btrfs-progs
 clonezilla
-cloud-init
 cryptsetup
 darkhttpd
 ddrescue
