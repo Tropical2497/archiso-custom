@@ -1,0 +1,22 @@
+[opener]
+bin_open = [
+    { run = '"$1"', block = true},
+    { run  = ''' echo sub-add "'$0'" | socat - /tmp/mpv.sock ''', desc = "Add sub to MPV"},
+]
+exe_open = [ 
+    { run  = ''' wine "$1" ''', desc = "Wine .exe"},
+]
+html_open = [ 
+    { run  = ''' librewolf "$1" ''', desc = "librewolf .html"},
+]
+
+[open]
+prepend_rules = [
+    { name = "*.html", use = ["html_open"]},
+    { name = "*.exe", use = ["exe_open"]},
+    { name = "*.sh", use = ["bin_open"]},
+    { name = "*.{ass,srt,ssa,sty,sup,vtt}", use  = [ "add-sub", "edit" ]},
+]
+
+[plugin]
+  prepend_preloaders = []
