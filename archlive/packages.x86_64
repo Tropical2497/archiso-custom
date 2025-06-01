@@ -96,7 +96,6 @@ systemd-resolvconf
 tcpdump
 terminus-font
 testdisk
-tmux
 tpm2-tools
 tpm2-tss
 udftools
@@ -114,6 +113,7 @@ xl2tpd
 
 
 #aur
+#
 #betacraft-launcher-bin
 #fastanime
 #librewolf-bin
@@ -125,6 +125,16 @@ xl2tpd
 #nvchad
 #swayfx
 #hyprland
+#hardinfo2
+#hstr
+#phono-qt6-mpv
+#rogue
+#terminal-mines
+#tetrigo
+#ttf-ms-win11-auto
+#ttf-windows-fonts
+
+
 
 #customrepo
 paru
@@ -138,8 +148,6 @@ ffmpegthumbnailer
 git
 github-cli
 gum
-hardinfo2
-hstr
 btop
 kdeconnect
 kitty
@@ -148,23 +156,17 @@ linux-lts
 neovim
 mpv
 okular
-phono-qt6-mpv
 prismlauncher
 python-mpv
-rogue
 starship
 steam
 syncthing
-terminal-mines
-tetrigo
 timeshift
 transmission-qt
 ttf-dejavu
 ttf-hanazono
 ttf-jetbrains-mono-nerd
 ttf-liberation
-ttf-ms-win11-auto
-ttf-windows-fonts
 tty-solitaire
 unrar
 unzip
