@@ -123,11 +123,14 @@ xl2tpd
 #nyaa-bin
 #yt-x
 #nvchad
+#swayfx
+#hyprland
 
 #customrepo
 paru
 
 #added
+sddm
 dwarffortress
 fastfetch
 feh
@@ -169,7 +172,6 @@ wget
 wine
 yazi
 yt-dlp
-hyprland
 breeze-icons
 lximage-qt
 lxqt-about
